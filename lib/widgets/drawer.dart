@@ -5,7 +5,7 @@ import 'package:saleing/firebase_service.dart';
 import 'package:saleing/main.dart';
 import 'package:saleing/styles.dart';
 late BehaviorSubject<int> rxCurrentPageIndex ;
-enum UserType {user , admin}
+enum UserType {user , admin , worker}
 class DrawerWidget extends StatelessWidget {
   UserType userType ;
   DrawerWidget(subject,this.userType){
